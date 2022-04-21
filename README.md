@@ -33,4 +33,15 @@ This will create:
 
 #Examples of using the API
 
-
+*First you should create users by calling POST localhost:8081/user
+{
+"firstName":"Ibrahim",
+"lastName":"Zahra"
+}
+*Create account for that user by calling POST localhost:8081/account, this is a sample body
+{
+"userId":1,
+"accountType":"Saving"
+"currency":"EU"
+}
+* you can check the balance by calling GET localhost:8080/account/balance
