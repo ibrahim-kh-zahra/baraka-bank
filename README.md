@@ -15,7 +15,8 @@ For building and running the application you need:
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `de.codecentric.springbootsample.Application` class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.baraka.bank.BankApplication` 
+class from your IDE.
 
 Alternatively you can use the Dockerfile like so:
 docker build --tag=bank-server:latest
