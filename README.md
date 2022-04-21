@@ -19,9 +19,13 @@ There are several ways to run a Spring Boot application on your local machine. O
 class from your IDE.
 
 Alternatively you can use the Dockerfile like so:
-docker build --tag=bank-server:latest
-docker run -p8081:8080 bank-server:latest
+````
+```
 
+* docker build --tag=bank-server:latest
+* docker run -p8081:8080 bank-server:latest
+```
+````
 ```shell
 mvn spring-boot:run
 ```
